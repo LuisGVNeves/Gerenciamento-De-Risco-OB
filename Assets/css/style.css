@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Topo do site*/
+header h1{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 201, 90);
+}
+/*PArte superior do site*/
+.superior{
+    margin-top: 40px;
+    margin-left: 25%;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+#banca{
+    border: 1px solid rgb(38, 88, 182);
+    padding: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin: 150px;
+}
+#loss{
+    border: 1px solid red;
+    width: 100px;
+    padding: 30px;
+    margin: 50px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+#win{
+    border: 1px solid rgb(82, 230, 89);
+    width: 100px;
+    padding: 30px;
+    margin: 50px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.inferior{
+    width: 30%;
+}
+
+/*Entrada*/
+.Entrada{
+    width: 150px;
+    height: 50px;
+    border: chartreuse 1px solid;
+    display: inline-block;
+    box-sizing: content-box;
+    text-align: center;
+    line-height: 25px;
+    margin: 5px;
+}
+
+.soros{
+    width: 150px;
+    height: 50px;
+    border: chartreuse 1px solid;
+    display: inline-block;
+    box-sizing: content-box;
+    text-align: center;
+    line-height: 25px;
+    margin: 5px;
+}
