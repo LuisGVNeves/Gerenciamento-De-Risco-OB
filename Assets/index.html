@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gerenciamento de risco BackTeste</title>
         <link rel="stylesheet" href="./css/style.css">
+        <!--Font-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         
@@ -15,57 +17,182 @@
 
 
         <section>
+            
             <div class="container">
-
+                <!--Blocos do win e Loss e banca-->
                 <div class="superior">
                     <!--Capital-->
-                    <span id="banca">300</span>
+                    <div id="banca">
+                        Valor da banca:
+                        <span id="capital">300</span>
+                    </div>
+                    
                     
                     <!--Vitória = Win    Loss = Perca-->
                     <span id="win">WIN</span>
                     <span id="loss">LOSS</span>
                 </div>
-
+                <!--Entradas-->
                 <div class="inferior">
                     <!--Entrada e soros 1-->
                     <div class="Entrada" id="entrada-1"> 
                         1 ° Entrada
                         <br>
-                        7,85
+                        2,75
                     </div>
                     <div class="soros" id="soros-1">
                         1 ° soros
                         <br>
-                        17,85
+                        4,68
                     </div>
     
                     <!--Entrada e soros 2-->
                     <div class="Entrada" id="entrada-2">
                         2 ° Entrada
                         <br>
-                        10,85
+                        3,85
                     </div>
                     <div class="soros" id="soros-2">
                         2 ° soros
                         <br>
-                        22,95
+                        6,55
                     </div>
 
 
                     <!--Entrada e soros 3-->
-                    <div class="Entrada" id="entrada-3">
+                    <div class="Entrada recuperacao" id="entrada-3">
                         3 ° Entrada
                         <br>
-                        34,77
+                        2,65
                     </div>
-                    <div class="soros" id="soros-3">
+                    <div class="soros recuperacao" id="soros-3">
                         3 ° soros
                         <br>
-                        58,95
+                        4,50
                     </div>
 
+                    <!--Entrada e soros 4-->
+                    <div class="Entrada" id="entrada-4">
+                        4 ° Entrada
+                        <br>
+                        6,46
+                    </div>
+                    <div class="soros" id="soros-4">
+                        4 ° soros
+                        <br>
+                        10,99
+                    </div>
+
+
+                    <!--Entrada e soros 5-->
+                    <div class="Entrada" id="entrada-5">
+                        5 ° Entrada
+                        <br>
+                        9,05
+                    </div>
+                    <div class="soros" id="soros-5">
+                        5 ° soros
+                        <br>
+                        15,39
+                    </div>
+
+
+
+                    <!--Entrada e soros 6-->
+                    <div class="Entrada recuperacao" id="entrada-6">
+                        6 ° Entrada
+                        <br>
+                        9,92
+                    </div>
+                    <div class="soros recuperacao" id="soros-6">
+                        6 ° soros
+                        <br>
+                        16,87
+                    </div>
+
+
+                    <!--Entrada e soros 7-->
+                    <div class="Entrada" id="entrada-7">
+                        7 ° Entrada
+                        <br>
+                        16,64
+                    </div>
+                    <div class="soros" id="soros-7">
+                        7 ° soros
+                        <br>
+                        28,29
+                    </div>
+
+
+                    <!--Entrada e soros 8-->
+                    <div class="Entrada" id="entrada-8">
+                        8 ° Entrada
+                        <br>
+                        23,31
+                    </div>
+                    <div class="soros" id="soros-8">
+                        8 ° soros
+                        <br>
+                        39,64
+                    </div>
+
+                    <!--Entrada e soros 9-->
+                    <div class="Entrada recuperacao" id="entrada-9">
+                        9 ° Entrada
+                        <br>
+                        29,90
+                    </div>
+                    <div class="soros recuperacao" id="soros-9">
+                        9 ° soros
+                        <br>
+                        50,82
+                    </div>
+
+                    <!--Entrada e soros 10-->
+                    <div class="Entrada" id="entrada-10">
+                        10 ° Entrada
+                        <br>
+                        44,62
+                    </div>
+                    <div class="soros" id="soros-10">
+                        10 ° soros
+                        <br>
+                        75,86
+                    </div>
+
+                    <!--Entrada e soros 11-->
+                    <div class="Entrada" id="entrada-11">
+                        11 ° Entrada
+                        <br>
+                        62,49
+                    </div>
+                    <div class="soros" id="soros-11">
+                        11 ° soros
+                        <br>
+                        106,24
+                    </div>
+
+                    <!--Entrada e soros 12-->
+                    <div class="Entrada" id="entrada-12">
+                        12 ° Entrada
+                        <br>
+                        87,51
+                    </div>
+                    <div class="soros" id="soros-12">
+                        12 ° soros
+                        <br>
+                        148,77
+                    </div>
+                </div>
+                <!--Container para o "banco de dados"-->
+                <div id="container-db">
+                    <div id="banco-de-dados">
+                        ORDENS COMPUTADAS:
+                    </div>
+                    <div class="ordens"></div>
                 </div>
             </div>
+
         </section>
         
         <script src="./js/script.js"></script>

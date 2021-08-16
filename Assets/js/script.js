@@ -3,8 +3,8 @@ let divInferior = document.querySelector('.inferior');
 /*
     Capital da conta - A cada win vai ser alterado
 */
-let banca = document.querySelector('#banca');
-banca.innerText = 300;
+let capital = document.querySelector('#capital');
+capital.innerText = 300;
 
 
 
