@@ -1,7 +1,12 @@
-let banca = document.querySelector('#banca');
-
-
 let divInferior = document.querySelector('.inferior');
+
+/*
+    Capital da conta - A cada win vai ser alterado
+*/
+let banca = document.querySelector('#banca');
+banca.innerText = 300;
+
+
 
 
 let entradaUm = divInferior.querySelector('#entrada-1');
@@ -44,6 +49,10 @@ win.addEventListener('click',function(event){
 });
 
 
+
+/*
+    A cada win o contadorWIn vai ser incrementado e atingir o objetivo final que é 2 wins
+*/
 function checaWin(){
     if(contadorWin === 1){
         console.log('um win')
