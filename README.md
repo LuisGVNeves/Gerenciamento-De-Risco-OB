@@ -11,6 +11,5 @@
 - O STOP LOSS é avisado em um "mini banco de dados" onde o próprio usuário vê a ordem que foi lançada e o valor perdido ou ganho.
 - O usuário possui 12 entradas com o valor "cru" do capital e 12 entradas "soros" caso a entrada dada seja ganha.
    
-<p align="center">
-    <img width="470" height="300" src="./video/toReadme.gif">
-</p>
+
+![EZ](https://user-images.githubusercontent.com/81877732/129731693-cc504ca8-f65e-44f3-b323-31c2f92480ed.gif)
