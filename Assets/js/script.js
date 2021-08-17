@@ -51,13 +51,20 @@ win.addEventListener('click',function(event){
 // Caso o usuario acerte todas as entradas
 function acertaTodasSeguidas(){
     for(let i=contadorWin; i <= contadorWin && i < 25; i++){
+        if(capital.innerHTML <= 300){
+            capital.style.color = 'red';
+        }
         if(i === 2 || i === 4 || i === 6 || i === 8 || i === 10 || i === 12 || i === 14 || i === 16 || i === 18 || i === 20 || i === 22){
             ordensDB.innerHTML += `<p>Sessão com ${contadorWin} Win META BATIDA COM SUCESSO ! + ${lucro[i]}</p> <br>`;
             capital.innerHTML = (parseFloat(capital.innerHTML) + lucro[i]).toFixed(2);
+            capital.style.color = "#21b314";
+            capital.style.fontWeight ="bolder";
+            ordensDB.style.fontWeight ="bolder";
         }
         else{
             ordensDB.innerHTML += `<p>Sessão com ${contadorWin} Win finalizada ! + ${lucro[i]}</p> <br>`;
             capital.innerHTML = (parseFloat(capital.innerHTML) + lucro[i]).toFixed(2);
+            capital.style.color = "#21a348";
         }
     }
 }
@@ -67,10 +74,12 @@ function erreTodasSeguidas(){
         if(i === 2 || i === 4 || i === 6 || i === 8 || i === 10 || i === 12 || i === 14 || i === 16 || i === 18 || i === 20 || i === 22){
             ordensDB.innerHTML += `<p>Sessão com ${contadorLoss} loss STOP LOSS ATINGIDO ! - ${entradas[i]}</p> <br>`;
             capital.innerHTML = (parseFloat(capital.innerHTML) - entradas[i]).toFixed(2);
+            capital.style.color = "red";
         }
         else{
             ordensDB.innerHTML += `<p>Sessão com ${contadorLoss} loss finalizada ! - ${entradas[i]}</p> <br>`;
             capital.innerHTML = (parseFloat(capital.innerHTML) - entradas[i]).toFixed(2);
         }
+
     }
 }
