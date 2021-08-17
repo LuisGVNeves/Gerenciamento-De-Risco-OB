@@ -1,0 +1,31 @@
+
+funtion primeiraEntrada(){
+SE cliqueWIN teve 1 clique 
+    faca += PrimeiraEntradaValor;
+    cliqueWIN = 0;
+SENAO SE cliqueWIN teve 1 clique 
+        faca soros1; // MetaBatida
+        cliqueWIN = 0;
+SENAO{
+    segundaEntrada()
+}
+
+function segundaEntrada(){
+    SE cliqueLOSS teve 1 clique
+        faca -= PrimeiraEntrada;
+        cliqueLOSS = 0;
+    SENAO SE cliqueWIn teve 1 clique
+        faca += segundaEntrada;
+        cliqueWIN = 0;
+    SENAO SE cliqueWin teve 1 clique
+        faca += sorosDois;
+    SENAO{
+        terceiraENTRADA()
+    }
+}
+
+
+
+
+SE 1 entrada teve cliqueLOSS
+    faca -= valorBanca
