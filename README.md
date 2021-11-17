@@ -1,4 +1,4 @@
-![APM](https://img.shields.io/apm/l/npm)
+[![APM](https://img.shields.io/apm/l/npm)](https://github.com/LuisVNeves/Gerenciamento-De-Risco-OB/blob/master/LICENSE)
 # Gerenciamento-De-Risco-OB
 
 - O gerenciamento de risco para OB foi criado para gastar menos tempo fazendo backTests de estratégias no gráfico de Forex e testando no gŕafico de ob. 
